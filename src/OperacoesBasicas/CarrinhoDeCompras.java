@@ -12,7 +12,7 @@ public class CarrinhoDeCompras {
     }
 
     public void adicionarItem(String nome, double preco, int quantidade){
-        this.listaItens.add(new Item(nome, preco, quantidade));
+        this.listaItens.add(new git Item(nome, preco, quantidade));
     }
 
     public void removerItem(String nome){
